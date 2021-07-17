@@ -2,3 +2,5 @@ cd ~/environment/mynews
 git add .
 git commit -m "メッセージ"
 git push -u origin main
+
+php artisan serve --port=8080
