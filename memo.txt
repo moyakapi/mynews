@@ -4,3 +4,8 @@ git commit -m "メッセージ"
 git push -u origin main
 
 php artisan serve --port=8080
+
+$mysql -u root
+mysql> describe mynews.news;
+
+mysql> exit;
